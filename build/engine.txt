@@ -1,0 +1,4 @@
+[TRACE] X11 window initialized
+[TRACE] Set visible true
+[TRACE] Created vulkan instance successfully
+[TRACE] Vulkan is setup and ready to for use

@@ -2,7 +2,7 @@
 
 #include "../../inc/base/logger.h"
 
-using joszva::engine::logger;
+using joszva::graphics::logger;
 
 logger* logger::instance()
 {
@@ -18,6 +18,16 @@ void logger::trace(const std::string& txt)
 void logger::warning(const std::string& txt)
 {
     log(log_level::WARNING, txt);
+}
+
+void logger::error(const std::string& txt)
+{
+    log(log_level::ERROR, txt);
+}
+
+void logger::fatal(const std::string& txt)
+{
+    log(log_level::FATAL, txt);
 }
 
 static bool is_file_empty(std::ifstream& file)

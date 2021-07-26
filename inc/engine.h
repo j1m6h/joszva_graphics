@@ -11,6 +11,6 @@
 
 #include "math/vector2.h"
 
-using namespace joszva::engine;
+using namespace joszva::graphics;
 
 #endif

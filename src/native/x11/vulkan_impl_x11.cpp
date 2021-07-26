@@ -4,7 +4,7 @@
 #include "../../../inc/native/x11/display_x11.h"
 #include "../../../inc/native/x11/vulkan_impl_x11.h"
 
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     namespace vulkan_impl_x11
     {

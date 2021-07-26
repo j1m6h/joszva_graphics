@@ -3,7 +3,7 @@
 
 #include <functional>
 
-namespace joszva::engine
+namespace joszva::graphics
 {
     template<typename T>
     using event_function = std::function<void(const T& _event)>;

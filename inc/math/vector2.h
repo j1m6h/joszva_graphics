@@ -1,7 +1,7 @@
 #ifndef VECTOR2_H
 #define VECTOR2_H
 
-namespace joszva::engine
+namespace joszva::graphics
 {
     template<typename T>
     class vector2

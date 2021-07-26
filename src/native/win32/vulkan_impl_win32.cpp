@@ -4,7 +4,7 @@
 #include "../../../inc/native/win32/vulkan_impl_win32.h" /* must be included before vulkan_win32.h */
 #include <vulkan/vulkan_win32.h>
 
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
 	namespace vulkan_impl_win32
 	{

@@ -9,7 +9,7 @@
     #include "../native/win32/input_impl_win32.h"
 #endif
 
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     namespace input_impl
     {

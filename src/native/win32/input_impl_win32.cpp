@@ -1,7 +1,7 @@
 #include "../../../inc/native/win32/input_impl_win32.h"
 
 #ifdef JOSZVA_SYS_WINDOWS
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     namespace input_impl_win32
     {

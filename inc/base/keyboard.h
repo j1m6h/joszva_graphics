@@ -1,7 +1,7 @@
 #ifndef KEYBOARD_H
 #define KEYBOARD_H
 
-namespace joszva::engine
+namespace joszva::graphics
 {
     namespace keyboard
     {

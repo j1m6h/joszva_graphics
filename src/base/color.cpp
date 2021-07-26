@@ -1,6 +1,6 @@
 #include "../../inc/base/color.h"
 
-using joszva::engine::color;
+using joszva::graphics::color;
 
 const color color::black(0, 0, 0);
 const color color::white(255, 255, 255);

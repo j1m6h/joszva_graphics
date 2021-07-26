@@ -6,9 +6,9 @@
 #include "../../../inc/native/win32/window_impl_win32.h"
 
 #ifdef JOSZVA_SYS_WINDOWS
-using joszva::engine::vector2;
+using joszva::graphics::vector2;
 
-using joszva::engine::priv::window_impl_win32;
+using joszva::graphics::priv::window_impl_win32;
 
 window_impl_win32::window_impl_win32(const std::string& title, int width, int height)
     : handle(0),

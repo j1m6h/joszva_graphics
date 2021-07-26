@@ -1,7 +1,7 @@
 #include "../../inc/base/input_impl.h"
 #include "../../inc/base/keyboard.h"
 
-namespace joszva::engine
+namespace joszva::graphics
 {
     namespace keyboard
     {

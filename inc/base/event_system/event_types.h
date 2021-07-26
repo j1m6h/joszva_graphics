@@ -5,7 +5,7 @@
 #include "../keyboard.h"
 #include "../mouse.h"
 
-namespace joszva::engine
+namespace joszva::graphics
 {
     /* all possible events structures */
 

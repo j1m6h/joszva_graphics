@@ -2,10 +2,10 @@
 #include "../../inc/base/vulkan_impl.h"
 #include "../../inc/base/window.h"
 
-using joszva::engine::vector2;
-using joszva::engine::window;
+using joszva::graphics::vector2;
+using joszva::graphics::window;
 
-using joszva::engine::priv::window_impl;
+using joszva::graphics::priv::window_impl;
 
 window::window(const std::string& title, int width, int height)
     : impl(new window_impl(title, width, height))

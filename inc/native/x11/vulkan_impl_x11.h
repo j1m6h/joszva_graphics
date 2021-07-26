@@ -12,7 +12,7 @@
 #include "window_impl_x11.h"
 
 #ifdef JOSZVA_SYS_LINUX
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     namespace vulkan_impl_x11
     {

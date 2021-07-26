@@ -2,9 +2,9 @@
 #include "../../../inc/native/x11/input_impl_x11.h"
 
 #ifdef JOSZVA_SYS_LINUX
-using joszva::engine::vector2;
+using joszva::graphics::vector2;
 
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     namespace input_impl_x11
     {

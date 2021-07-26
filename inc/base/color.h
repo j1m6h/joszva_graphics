@@ -5,7 +5,7 @@
 
 #include "config.h"
 
-namespace joszva::engine
+namespace joszva::graphics
 {
     class color
     {

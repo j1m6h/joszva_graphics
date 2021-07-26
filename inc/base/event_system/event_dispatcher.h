@@ -6,7 +6,7 @@
 
 #include "event.h"
 
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     /* singleton event dispatcher class that is designed specifically to handle any type of event */
     template<typename T>

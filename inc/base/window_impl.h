@@ -9,7 +9,7 @@
     #include "../native/win32/window_impl_win32.h"
 #endif
 
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
 #if defined(JOSZVA_SYS_LINUX)
     typedef window_impl_x11 window_impl;

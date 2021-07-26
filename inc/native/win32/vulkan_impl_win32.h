@@ -6,7 +6,7 @@
 #include "window_impl_win32.h"
 
 #ifdef JOSZVA_SYS_WINDOWS
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
 	namespace vulkan_impl_win32
 	{

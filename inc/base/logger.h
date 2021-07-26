@@ -4,7 +4,7 @@
 #include <fstream>
 #include <memory>
 
-namespace joszva::engine
+namespace joszva::graphics
 {
     enum class log_level
     {
@@ -21,8 +21,8 @@ namespace joszva::engine
 
         void trace(const std::string& txt);
         void warning(const std::string& txt);
-        void error();
-        void fatal();
+        void error(const std::string& txt);
+        void fatal(const std::string& txt);
 
     private:
         void log(log_level level, const std::string& txt);

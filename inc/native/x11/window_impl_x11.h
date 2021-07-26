@@ -12,7 +12,7 @@
 #include "../../math/vector2.h"
 
 #ifdef JOSZVA_SYS_LINUX
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     /* X11 window implementation */
     class window_impl_x11
@@ -33,7 +33,7 @@ namespace joszva::engine::priv
         void wait_events();
 
     private:
-        void init_x11(const std::string& title);
+        void init_x11(const std::string& title, int width, int height);
         void set_protocols();
         bool process_event(XEvent& event);
         bool wait_for_event(double* timeout);

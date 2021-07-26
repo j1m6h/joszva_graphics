@@ -1,7 +1,7 @@
 #ifndef MOUSE_H
 #define MOUSE_H
 
-namespace joszva::engine 
+namespace joszva::graphics
 {
     namespace mouse
     {

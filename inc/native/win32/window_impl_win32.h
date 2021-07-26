@@ -9,7 +9,7 @@
 #include "../../math/vector2.h"
 
 #ifdef JOSZVA_SYS_WINDOWS
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     /* win32 window implementation */
     class window_impl_win32

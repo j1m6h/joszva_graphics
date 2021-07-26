@@ -2,7 +2,7 @@
 
 #include "../../../inc/native/x11/display_x11.h"
 
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     namespace display_x11
     {

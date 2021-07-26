@@ -10,7 +10,7 @@
 #include "../../math/vector2.h"
 
 #ifdef JOSZVA_SYS_LINUX
-namespace joszva::engine::priv
+namespace joszva::graphics::priv
 {
     namespace input_impl_x11
     {

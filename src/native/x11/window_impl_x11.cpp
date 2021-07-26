@@ -10,9 +10,9 @@
 
 #ifdef JOSZVA_SYS_LINUX
 
-using joszva::engine::vector2;
+using joszva::graphics::vector2;
 
-using joszva::engine::priv::window_impl_x11;
+using joszva::graphics::priv::window_impl_x11;
 
 window_impl_x11::window_impl_x11(const std::string& title, int width, int height)
     : display(nullptr),
@@ -20,7 +20,7 @@ window_impl_x11::window_impl_x11(const std::string& title, int width, int height
     title(title),
     key_repeat(true)
 {
-    init_x11(title);
+    init_x11(title, width, height);
 }
 
 window_impl_x11::~window_impl_x11()
@@ -87,13 +87,13 @@ void window_impl_x11::set_size(const vector2<int>& size)
     
 }
 
-void window_impl_x11::init_x11(const std::string& title)
+void window_impl_x11::init_x11(const std::string& title, int width, int height)
 {
     display = display_x11::open_display();
 
     int screen = DefaultScreen(display);
     //handle = XCreateSimpleWindow(display, RootWindow(display, screen), 20, 20, 1280, 720, 0, BlackPixel(display, screen), WhitePixel(display, screen));
-    handle = XCreateSimpleWindow(display, RootWindow(display, screen), 20, 20, 1280, 720, 0, 0, 0);
+    handle = XCreateSimpleWindow(display, RootWindow(display, screen), 20, 20, width, height, 0, 0, 0);
     XStoreName(display, handle, title.c_str());
 
     /* event mask that specifies which events we want to receive */
@@ -330,7 +330,7 @@ bool window_impl_x11::wait_for_event(double* timeout)
     return false;
 }
 
-joszva::engine::keyboard::key window_impl_x11::keysym_to_key(KeySym sym)
+joszva::graphics::keyboard::key window_impl_x11::keysym_to_key(KeySym sym)
 {
     switch (sym)
     {

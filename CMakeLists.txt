@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(joszva_engine)
+project(joszva_graphics)
 
 if(UNIX)
     set(platform_specific_sources
@@ -24,18 +24,9 @@ set(base_sources
     src/base/mouse.cpp
     src/base/window.cpp)
 
-set(imgui_sources 
-    vendor/imgui/imgui_draw.cpp
-    vendor/imgui/imgui_impl_vulkan.cpp 
-    vendor/imgui/imgui_tables.cpp 
-    vendor/imgui/imgui_widgets.cpp 
-    vendor/imgui/imgui.cpp
-    vendor/imgui/joszva_backend/imgui_impl_joszva.cpp)
-
 add_library(${PROJECT_NAME} SHARED
-    ${base_sources}
     ${platform_specific_sources}
-    ${imgui_sources})
+    ${base_sources})
 
 set_target_properties(${PROJECT_NAME} PROPERTIES 
     CXX_STANDARD 17

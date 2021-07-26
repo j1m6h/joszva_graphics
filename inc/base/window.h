@@ -11,7 +11,7 @@
 
 #include "../math/vector2.h"
 
-namespace joszva::engine
+namespace joszva::graphics
 {
     /* base window implementation */
     class window
