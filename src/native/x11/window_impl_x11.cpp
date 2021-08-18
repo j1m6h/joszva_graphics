@@ -1,8 +1,3 @@
-#include <algorithm>
-#include <thread>
-
-#include "../../../inc/base/logger.h"
-
 #include "../../../inc/base/event_system/event_dispatcher.h"
 #include "../../../inc/base/event_system/event_types.h"
 
@@ -47,15 +42,11 @@ void window_impl_x11::set_visible(bool visible)
     {
         XMapWindow(display, handle);
         XFlush(display);
-
-        JOSZVA_TRACE("Set visible true");
     }
     else 
     {
         XUnmapWindow(display, handle);
         XFlush(display);
-
-        JOSZVA_TRACE("Set visible false");
     }
 }
 
@@ -70,8 +61,6 @@ void window_impl_x11::set_title(const std::string& title)
         title.c_str(), title.c_str(), nullptr, 0, nullptr, nullptr, nullptr);
 
     this->title = title;
-
-    JOSZVA_TRACE("Set window title to [" + title + "]");
 }
 
 vector2<int> window_impl_x11::get_size() const 
@@ -105,8 +94,6 @@ void window_impl_x11::init_x11(const std::string& title, int width, int height)
     XSelectInput(display, handle, event_mask);
 
     set_protocols();
-
-    JOSZVA_TRACE("X11 window initialized");
 }
 
 void window_impl_x11::set_protocols()

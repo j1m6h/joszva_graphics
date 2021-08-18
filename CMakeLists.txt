@@ -20,7 +20,6 @@ endif()
 set(base_sources
     src/base/color.cpp
     src/base/keyboard.cpp
-    src/base/logger.cpp
     src/base/mouse.cpp
     src/base/window.cpp)
 
@@ -34,6 +33,8 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 
 find_package(Vulkan REQUIRED)
 target_link_libraries(${PROJECT_NAME} Vulkan::Vulkan)
+
+target_link_libraries(${PROJECT_NAME} "/home/joshua/Downloads/joszva_graphics-main/vendor/joszva_log/lib/")
 
 if(UNIX)
     find_package(X11 REQUIRED)

@@ -1,47 +1,42 @@
 [
 {
   "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/native/x11/display_x11.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/native/x11/display_x11.cpp",
+  "command": "/usr/bin/c++ -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/native/x11/display_x11.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/native/x11/display_x11.cpp",
   "file": "/home/joshua/Desktop/joszva_graphics/src/native/x11/display_x11.cpp"
 },
 {
   "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/native/x11/input_impl_x11.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/native/x11/input_impl_x11.cpp",
+  "command": "/usr/bin/c++ -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/native/x11/input_impl_x11.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/native/x11/input_impl_x11.cpp",
   "file": "/home/joshua/Desktop/joszva_graphics/src/native/x11/input_impl_x11.cpp"
 },
 {
   "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/native/x11/vulkan_impl_x11.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/native/x11/vulkan_impl_x11.cpp",
+  "command": "/usr/bin/c++ -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/native/x11/vulkan_impl_x11.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/native/x11/vulkan_impl_x11.cpp",
   "file": "/home/joshua/Desktop/joszva_graphics/src/native/x11/vulkan_impl_x11.cpp"
 },
 {
   "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/native/x11/window_impl_x11.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/native/x11/window_impl_x11.cpp",
+  "command": "/usr/bin/c++ -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/native/x11/window_impl_x11.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/native/x11/window_impl_x11.cpp",
   "file": "/home/joshua/Desktop/joszva_graphics/src/native/x11/window_impl_x11.cpp"
 },
 {
   "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/color.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/color.cpp",
+  "command": "/usr/bin/c++ -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/color.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/color.cpp",
   "file": "/home/joshua/Desktop/joszva_graphics/src/base/color.cpp"
 },
 {
   "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/keyboard.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/keyboard.cpp",
+  "command": "/usr/bin/c++ -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/keyboard.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/keyboard.cpp",
   "file": "/home/joshua/Desktop/joszva_graphics/src/base/keyboard.cpp"
 },
 {
   "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/logger.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/logger.cpp",
-  "file": "/home/joshua/Desktop/joszva_graphics/src/base/logger.cpp"
-},
-{
-  "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/mouse.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/mouse.cpp",
+  "command": "/usr/bin/c++ -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/mouse.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/mouse.cpp",
   "file": "/home/joshua/Desktop/joszva_graphics/src/base/mouse.cpp"
 },
 {
   "directory": "/home/joshua/Desktop/joszva_graphics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/window.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/window.cpp",
+  "command": "/usr/bin/c++ -Djoszva_graphics_EXPORTS  -g -fPIC -std=c++17 -o CMakeFiles/joszva_graphics.dir/src/base/window.cpp.o -c /home/joshua/Desktop/joszva_graphics/src/base/window.cpp",
   "file": "/home/joshua/Desktop/joszva_graphics/src/base/window.cpp"
 }
 ]

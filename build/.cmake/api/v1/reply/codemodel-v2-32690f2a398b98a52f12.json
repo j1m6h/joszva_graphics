@@ -6,6 +6,7 @@
 			[
 				{
 					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -38,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "joszva_graphics::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-joszva_graphics-Debug-5ade45649cf9be2f5236.json",
+					"jsonFile" : "target-joszva_graphics-Debug-0af168c2b2fd6b543907.json",
 					"name" : "joszva_graphics",
 					"projectIndex" : 0
 				}
@@ -54,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 1
+		"minor" : 3
 	}
 }
