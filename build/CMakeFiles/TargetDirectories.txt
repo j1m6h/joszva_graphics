@@ -1,3 +1,0 @@
-/home/joshua/Desktop/joszva_graphics/build/CMakeFiles/rebuild_cache.dir
-/home/joshua/Desktop/joszva_graphics/build/CMakeFiles/edit_cache.dir
-/home/joshua/Desktop/joszva_graphics/build/CMakeFiles/joszva_graphics.dir
