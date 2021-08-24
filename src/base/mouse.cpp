@@ -9,5 +9,10 @@ namespace joszva::graphics
         {
             return priv::input_impl::is_mouse_pressed(btn);
         }
+
+        const vector2<int> get_cursor_coords()
+        {
+            return priv::input_impl::get_cursor_coords();
+        }
     }
 }

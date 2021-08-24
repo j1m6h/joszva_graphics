@@ -34,7 +34,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 find_package(Vulkan REQUIRED)
 target_link_libraries(${PROJECT_NAME} Vulkan::Vulkan)
 
-target_link_libraries(${PROJECT_NAME} "/home/joshua/Downloads/joszva_graphics-main/vendor/joszva_log/lib/")
+target_link_libraries(${PROJECT_NAME} "/home/joshua/Desktop/joszva_engine/vendor/joszva_log/lib/libjoszva_log.so")
 
 if(UNIX)
     find_package(X11 REQUIRED)
